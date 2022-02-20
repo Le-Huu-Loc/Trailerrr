@@ -1,0 +1,46 @@
+@use "../../SCSS" as *;
+
+.container-footer {
+    margin: 3rem 0;
+    @include flex(center, space-between);
+
+    &--left {
+        width: 70%;
+
+        p {
+            @include mobile {
+                margin-bottom: 0.5rem;
+            }
+        }
+
+        @include mobile {
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+    }
+    &--right {
+        @include mobile {
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+    }
+
+    .footer--left__list {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .footer--right__list {
+        color: #ffffff;
+        transition: color 0.3s ease;
+
+        &:hover {
+            color: #5a606b;
+        }
+    }
+
+    @include mobile {
+        flex-direction: column;
+    }
+}
