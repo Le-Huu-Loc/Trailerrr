@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Trailerrr/static/css/main.de3f8424.css",
+    "main.js": "/Trailerrr/static/js/main.ce2586da.js",
+    "static/css/880.7ae9f85a.chunk.css": "/Trailerrr/static/css/880.7ae9f85a.chunk.css",
+    "static/js/880.361fc6cc.chunk.js": "/Trailerrr/static/js/880.361fc6cc.chunk.js",
+    "static/js/616.a7a363e0.chunk.js": "/Trailerrr/static/js/616.a7a363e0.chunk.js",
+    "static/media/banner_pageHeader.jpg": "/Trailerrr/static/media/banner_pageHeader.26817fc519c081c293c7.jpg",
+    "index.html": "/Trailerrr/index.html",
+    "main.de3f8424.css.map": "/Trailerrr/static/css/main.de3f8424.css.map",
+    "main.ce2586da.js.map": "/Trailerrr/static/js/main.ce2586da.js.map",
+    "880.7ae9f85a.chunk.css.map": "/Trailerrr/static/css/880.7ae9f85a.chunk.css.map",
+    "880.361fc6cc.chunk.js.map": "/Trailerrr/static/js/880.361fc6cc.chunk.js.map",
+    "616.a7a363e0.chunk.js.map": "/Trailerrr/static/js/616.a7a363e0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de3f8424.css",
+    "static/js/main.ce2586da.js"
+  ]
+}
