@@ -1,6 +1,6 @@
 import React, { Suspense } from 'react';
 import './App.scss'
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 
@@ -12,11 +12,11 @@ const Trailer = React.lazy(() => import('./Config/Routes'))
 function App() {
     return (
         <Suspense fallback={<div className='loading'>Loading...</div>}>
-            <BrowserRouter>
+            <HashRouter>
                 <Header />
                 <Trailer />
                 <Footer />
-            </BrowserRouter>
+            </HashRouter>
         </Suspense>
     );
 }
